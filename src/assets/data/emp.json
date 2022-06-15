@@ -1,0 +1,9 @@
+[
+    {"id":1,"name":"amitava","address":"kolkata","phone":1234},
+    {"id":2,"name":"amit","address":"delhi","phone":8888},
+    {"id":3,"name":"sumit","address":"chennai","phone":5434},
+    {"id":4,"name":"bimal","address":"hyd","phone":1874},
+    {"id":5,"name":"Arpan","address":"bihar","phone":4874},
+    {"id":6,"name":"Ankita","address":"puri","phone":4874},
+    {"id":7,"name":"Mriganko","address":"digha","phone":4674}
+]

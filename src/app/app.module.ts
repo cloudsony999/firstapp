@@ -5,18 +5,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeelistComponent } from './employeelist/employeelist.component';
+import { EmployeedetailsComponent } from './employeedetails/employeedetails.component';
+import { ArrayserviceService } from './arrayservice.service';
+import {HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeelistComponent
+    EmployeelistComponent,
+    EmployeedetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+    
   ],
-  providers: [],
+  providers: [ArrayserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
